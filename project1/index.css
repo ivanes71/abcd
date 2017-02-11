@@ -9,5 +9,5 @@ body {
     align-items: center; 
 }
 canvas {
-    border: 1px solid grey;
+    border: 3px solid black;
 }
