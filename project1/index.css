@@ -6,8 +6,12 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     align-items: center; 
 }
 canvas {
     border: 3px solid black;
+=======
+    align-items: center;
+>>>>>>> origin/master
 }
