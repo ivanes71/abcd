@@ -1,29 +1,6 @@
 var canvas = document.getElementById("sandbox"),
     context = canvas.getContext("2d");
 
-
-<<<<<<< HEAD
-context.lineWidth = 3;
-context.stroke(square);
-
-
-circle = new Path2D();
-circle.arc(150, 150, 100, 0, 2 * Math.PI);
-context.fill(circle);
-
-context.fillStyle = "rgba(255, 0, 0, 0.5)";
-context.fillRect(50, 50, 200, 200);
-
-
-
-
-var date = new Date(),
-    hours, minutes, seconds;
-hours = date.getHours();
-minutes = date.getMinutes();
-seconds = date.getSeconds();
-console.log(hours, minutes, seconds);
-=======
 var R = 300 / 2, d, angle, pX, pY, qX, qY;
 var d, angle, pX, pY, qX, qY;
 
@@ -58,4 +35,3 @@ function drawWatch() {
 }
 
 drawWatch();
->>>>>>> origin/master
